@@ -1,0 +1,21 @@
+.container__menu{
+  display: flex;
+  justify-content: end;
+  margin-right: 50px;
+
+  &--navigation {
+    margin: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+  }
+  &--navigation:hover{
+    color: #242424;
+    background-color: #C4C4C4;
+    transition: 0.5s;
+  }
+  &--active {
+    color: #242424;
+    background-color: #C4C4C4;
+  }
+}

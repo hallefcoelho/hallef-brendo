@@ -1,0 +1,89 @@
+.container__about{
+  background-color: #242424;
+  max-height: 640px;
+  
+
+  &--header--title{
+    position: relative;
+    top: 66px;
+    color: white;
+    font-weight: 800;
+    font-size: 100px;
+    z-index: 2;
+    left: 90px;
+  }
+
+  &--header--subtitle{
+    position: relative;
+    width: 300px;
+    right: 198px;
+    top: 78px;
+  }
+
+  &--img{
+    position: relative;
+    width: 620px;
+    left: 775px;
+    bottom: 103px;
+  }
+
+  &--text{
+    width: 500px;
+    position: relative;
+    color: white;
+    bottom: 525px;
+    text-align: justify;
+    left: 100px;
+  }
+}
+
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeInRight {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  @keyframes fadeInRight {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  } 
+
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+  }
+  @keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+  } 

@@ -1,0 +1,54 @@
+.container__certificates {
+  background-color: #242424;
+  height: 640px;
+
+  &--header--title {
+    position: relative;
+    top: 66px;
+    color: white;
+    font-weight: 800;
+    font-size: 100px;
+    z-index: 2;
+    left: 90px;
+  }
+
+  &--header--subtitle {
+    position: relative;
+    width: 650px;
+    right: 522px;
+    top: 78px;
+  }
+
+  &--certificate {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &--certificate mat-card {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+  }
+
+  &--certificate img {
+    width: 282px;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+  }
+  @keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+  } 
