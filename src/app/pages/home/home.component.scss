@@ -1,10 +1,12 @@
 .container__home {
   // max-width: 1300px;
-  max-height: 640px;
+  height: 640px;
   background-color: #242424;
+  // margin: auto;
+  overflow: hidden;
   
   &--img{
-    width: 620px;
+    width: 580px;
   }
 
   &--name{
@@ -157,3 +159,16 @@ transform: none;
   0% {opacity: 0;}
   100% {opacity: 1;}
   } 
+
+
+// @media screen and (min-width: 800px) {
+
+//   .container__home {
+//     min-height: 800px;
+//     background-color: #242424;
+    
+//     &--img{
+//       width: 620px;
+//     }
+//   }
+// }
