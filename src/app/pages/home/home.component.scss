@@ -6,7 +6,7 @@
   overflow: hidden;
   
   &--img{
-    width: 580px;
+    width: 620px;
   }
 
   &--name{
@@ -75,7 +75,7 @@
   -webkit-transform: none;
   transform: none;
   }
-  } 
+} 
 
 .fadeInRight {
 -webkit-animation-name: fadeInRight;
@@ -110,39 +110,6 @@ transform: none;
 }
 } 
 
-.fadeInRight {
-  -webkit-animation-name: fadeInRight;
-  animation-name: fadeInRight;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  }
-  @-webkit-keyframes fadeInRight {
-  0% {
-  opacity: 0;
-  -webkit-transform: translate3d(100%, 0, 0);
-  transform: translate3d(100%, 0, 0);
-  }
-  100% {
-  opacity: 1;
-  -webkit-transform: none;
-  transform: none;
-  }
-  }
-  @keyframes fadeInRight {
-  0% {
-  opacity: 0;
-  -webkit-transform: translate3d(100%, 0, 0);
-  transform: translate3d(100%, 0, 0);
-  }
-  100% {
-  opacity: 1;
-  -webkit-transform: none;
-  transform: none;
-  }
-  }
-
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
@@ -159,16 +126,3 @@ transform: none;
   0% {opacity: 0;}
   100% {opacity: 1;}
   } 
-
-
-// @media screen and (min-width: 800px) {
-
-//   .container__home {
-//     min-height: 800px;
-//     background-color: #242424;
-    
-//     &--img{
-//       width: 620px;
-//     }
-//   }
-// }
